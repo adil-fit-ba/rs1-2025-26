@@ -15,7 +15,7 @@ public class ProductCategoryEntity : BaseEntity
     /// <summary>
     /// Descripion of the category.
     /// </summary>
-    public string? Descripion { get; set; }
+    public string? DescriptionCategoriy { get; set; }
 
     /// <summary>
     /// Indicates whether the category is active (enabled).
