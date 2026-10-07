@@ -13,6 +13,11 @@ public class ProductCategoryEntity : BaseEntity
     public string Name { get; set; }
 
     /// <summary>
+    /// Descripion of the category.
+    /// </summary>
+    public string? Descripion { get; set; }
+
+    /// <summary>
     /// Indicates whether the category is active (enabled).
     /// </summary>
     public bool IsEnabled { get; set; }
